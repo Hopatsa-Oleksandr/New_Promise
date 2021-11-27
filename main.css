@@ -1,0 +1,93 @@
+body {
+  padding: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block {
+  border: 5px solid red;
+  max-width: 800px;
+  margin: 0px auto;
+  height: 1500px;
+  position: relative;
+}
+
+.block div {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.block__1 {
+  background-color: aqua;
+  width: 50%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.block__2 {
+  background-color: darkslategrey;
+  color: aliceblue;
+  width: 50%;
+  right: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+/* position: fixed; */
+/* position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%; */
+/* position: absolute;
+  width: 100%;
+  top: 30px;
+  left: 20px; */
+
+/* Позиционирование по оси Z в position: relative; */
+/* } */
+
+.block__3 {
+  background-color: blue;
+  color: aliceblue;
+  position: relative;
+  z-index: 3;
+}
+
+/* .block__3 {
+  background-color: blue;
+  color: aliceblue; */
+/* position: relative;
+  z-index: 2; */
+/* } */
+
+/* .block__4 {
+  background-color: black;
+  color: aliceblue;
+  position: sticky; */
+/* position: relative;
+  z-index: 2; */
+/* } */
+
+/* 1.Главное свойство позиционирование Position - по умолчанию static
+position: static;
+
+
+position: relative - устанавливаеться изначально его положения в коде
+и используеться с параметрами
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: 0; - используется по верх блоков
+
+
+position:absolute; - блок как будто вырываеться с потока, и зависает в воздухе
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+
+position: fixed; - Вырывает блок из потока, он фиксируеться по окну браузера.
+
+
+ position: sticky; - */

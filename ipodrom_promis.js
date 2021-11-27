@@ -1,4 +1,4 @@
-const horses = ["1go", "2go", "3go", "4go", "5go"];
+const horses = ["Украина", "Россия", "Германия", "Франция", "США"];
 
 const getRandomTime = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
